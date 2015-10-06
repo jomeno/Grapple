@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grapple.Web", "Grapple.Web\Grapple.Web.csproj", "{5737EABF-7311-4CF7-883A-497D5C1DF6D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grapple.Web.Tests", "Grapple.Web.Tests\Grapple.Web.Tests.csproj", "{542B626B-88AE-420B-817B-29908877C6EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5737EABF-7311-4CF7-883A-497D5C1DF6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5737EABF-7311-4CF7-883A-497D5C1DF6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5737EABF-7311-4CF7-883A-497D5C1DF6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5737EABF-7311-4CF7-883A-497D5C1DF6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542B626B-88AE-420B-817B-29908877C6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542B626B-88AE-420B-817B-29908877C6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542B626B-88AE-420B-817B-29908877C6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542B626B-88AE-420B-817B-29908877C6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
