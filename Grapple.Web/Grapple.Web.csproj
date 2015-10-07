@@ -128,12 +128,16 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Merchant\Controllers\HomeController.cs" />
     <Compile Include="Areas\Merchant\MerchantAreaRegistration.cs" />
+    <Compile Include="Areas\Principal\Controllers\HomeController.cs" />
     <Compile Include="Areas\Principal\PrincipalAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OlumideController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\GiftOrder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +149,16 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\Merchant\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Merchant\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Merchant\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Merchant\Views\web.config" />
+    <Content Include="Areas\Principal\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Principal\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Principal\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Principal\Views\web.config" />
+    <None Include="Properties\PublishProfiles\sweetgive - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\sweetgive - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -174,13 +188,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Merchant\Controllers\" />
     <Folder Include="Areas\Merchant\Models\" />
-    <Folder Include="Areas\Merchant\Views\" />
-    <Folder Include="Areas\Principal\Controllers\" />
     <Folder Include="Areas\Principal\Models\" />
-    <Folder Include="Areas\Principal\Views\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\Olumide\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

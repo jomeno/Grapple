@@ -16,7 +16,7 @@ namespace Grapple.Web.Areas.Admin
         {
             context.MapRoute(
                 "Principal",
-                "Admin/{controller}/{action}/{id}",
+                "Principal/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional },
                 new[] { "Grapple.Web.Areas.Principal.Controllers" }
             );

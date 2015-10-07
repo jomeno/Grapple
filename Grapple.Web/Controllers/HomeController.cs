@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Grapple.Web.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,7 +11,11 @@ namespace Grapple.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var model = new GiftOrder();
+            model.RecipientName = "Jomeno";
+            model.RecipienEmail = "jomeno.vona@gmail.com";
+            model.Amount = 3000;
+            return View(model);
         }
 
         public ActionResult About()

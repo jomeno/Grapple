@@ -16,7 +16,7 @@ namespace Grapple.Web.Areas.Admin
         {
             context.MapRoute(
                 "Merchant",
-                "Admin/{controller}/{action}/{id}",
+                "Merchant/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional },
                 new[] { "Grapple.Web.Areas.Merchant.Controllers" }
             );
